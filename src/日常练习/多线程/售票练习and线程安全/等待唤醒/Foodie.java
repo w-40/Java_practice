@@ -1,4 +1,4 @@
-package 日常练习.多线程.等待唤醒;
+package 日常练习.多线程.售票练习and线程安全.等待唤醒;
 
 public class Foodie extends Thread {
     @Override
