@@ -1,4 +1,4 @@
-package 日常练习.多线程.售票练习and线程安全.阻塞队列;
+package 日常练习.多线程.等待唤醒.阻塞队列;
 
 import java.util.concurrent.ArrayBlockingQueue;
 
