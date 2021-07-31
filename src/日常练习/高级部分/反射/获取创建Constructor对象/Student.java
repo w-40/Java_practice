@@ -1,4 +1,4 @@
-package 日常练习.高级部分.反射.获取Constructo对象;
+package 日常练习.高级部分.反射.获取创建Constructor对象;
 
 public class Student {
     private String name;

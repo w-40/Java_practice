@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--第二种引入-->
+<!DOCTYPE persons[
+<!ELEMENT persons (person)>
+<!ELEMENT person (name,age)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+        ]>
+<persons>
+    <person>
+        <name>张三</name>
+        <age>23</age>
+    </person>
+</persons>

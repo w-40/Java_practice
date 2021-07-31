@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--引入外部dtd文档-->
+<!DOCTYPE persons PUBLIC "dtd文件的名称" "dtd文档的URL">
+
+<persons>
+    <person>
+        <name>张三</name>
+        <age>23</age>
+    </person>
+</persons>

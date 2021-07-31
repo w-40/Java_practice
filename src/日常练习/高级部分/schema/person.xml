@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persons
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="https://wzkweb.azurewebsites.net/UOLabNUC2020/login.html"
+    xsi:schemaLocation="https://wzkweb.azurewebsites.net/UOLabNUC2020/login.html person.xsd"
+>
+    <person id="001">
+        <name>张三</name>
+        <age>23</age>
+    </person>
+</persons>

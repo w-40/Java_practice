@@ -16,7 +16,7 @@ public class ClientDemo {
                 break;
             }
             byte[] bytes = s.getBytes();
-            InetAddress address = InetAddress.getByName("127.0.0.1");
+            InetAddress address = InetAddress.getByName("192.168.1.102");
             int port = 10000;
             DatagramPacket dp = new DatagramPacket(bytes,bytes.length,address,port);
 
