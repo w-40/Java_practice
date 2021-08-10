@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="弹球游戏:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/_jar</output-path>
+    <root id="archive" name="弹球游戏.jar">
+      <element id="module-output" name="弹球游戏" />
+    </root>
+  </artifact>
+</component>

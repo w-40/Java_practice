@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Java学习:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java_jar</output-path>
+    <root id="archive" name="Java学习.jar">
+      <element id="module-output" name="Java学习" />
+      <element id="module-output" name="MyStudentManager" />
+      <element id="module-output" name="wzk-edu-info-manager" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/slf4j-api-1.7.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/slf4j-log4j12-1.7.26.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/dom4j-1.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/junit-4.9.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
