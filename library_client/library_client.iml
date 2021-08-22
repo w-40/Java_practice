@@ -7,5 +7,21 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="commons-beanutils-1.8.3">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/commons-beanutils-1.8.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/commons-codec-1.10.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/commons-logging-1.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/httpclient-4.5.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/httpcore-4.4.9.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/jackson-annotations-2.9.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/jackson-core-2.9.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/jackson-databind-2.9.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
