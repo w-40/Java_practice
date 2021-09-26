@@ -17,7 +17,11 @@ public class TestBox {
                     float width = sc.nextFloat();
                     float height = sc.nextFloat();
                     Box box = new Box(length, width, height);
-                    System.out.println("长为" + box.getLength()+ "，宽为" + box.getWidth() + "，高为" + box.getHeight() + "的体积为：" + box.getValue());
+                    System.out.println("长为" + box.getLength() + "，宽为" + box.getWidth() + "，高为" + box.getHeight() + "的体积为：" + box.getValue());
+                    box.setLength(50);
+                    box.setWidth(50);
+                    box.setHeight(50);
+                    System.out.println("长为" + box.getLength() + "，宽为" + box.getWidth() + "，高为" + box.getHeight() + "的体积为：" + box.getValue());
                     break;
                 case 2:
                     System.out.println("请输入正方体盒子的边长：");
