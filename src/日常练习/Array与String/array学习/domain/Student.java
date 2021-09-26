@@ -2,8 +2,7 @@ package 日常练习.Array与String.array学习.domain;
 
 public class Student {
     private String name;
-    private int age
-            ;
+    private int age;
 
     public Student() {
     }

@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java学习.iml" filepath="$PROJECT_DIR$/Java学习.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyStudentManager/MyStudentManager.iml" filepath="$PROJECT_DIR$/MyStudentManager/MyStudentManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyWeb/MyWeb.iml" filepath="$PROJECT_DIR$/MyWeb/MyWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/library_client/library_client.iml" filepath="$PROJECT_DIR$/library_client/library_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web_demo/web_demo.iml" filepath="$PROJECT_DIR$/web_demo/web_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/wzk=edu-info-manager/wzk-edu-info-manager.iml" filepath="$PROJECT_DIR$/wzk=edu-info-manager/wzk-edu-info-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/弹球游戏/弹球游戏.iml" filepath="$PROJECT_DIR$/弹球游戏/弹球游戏.iml" />
     </modules>
