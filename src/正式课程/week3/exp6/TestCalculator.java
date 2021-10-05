@@ -1,4 +1,4 @@
-package 正式课程.week3.practice;
+package 正式课程.week3.exp6;
 
 public class TestCalculator {
 

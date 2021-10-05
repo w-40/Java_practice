@@ -19,6 +19,7 @@ public class TestArrayList {
             System.out.println("8 清空线性表");
             System.out.println("9 判断线性表中是否包含某个元素");
             System.out.println("10 末尾插入元素");
+            System.out.println("11 反向查找");
             System.out.println("请输入您的选择");
 
             String choice = sc.next();
@@ -53,6 +54,10 @@ public class TestArrayList {
                     break;
                 case "10":
                     list.tailInsert();
+                    break;
+                case "11":
+                    list.reverseArrayList();
+                    break;
                 default:
                     System.out.println("您的输入有误");
             }

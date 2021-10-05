@@ -1,4 +1,4 @@
-package 正式课程.week3.practice;
+package 正式课程.week3.exp6;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class Calculator {
     Scanner sc = new Scanner(System.in);
 
     private int num1, num2;
-    char op;
+    private char op;
 
     public Calculator() {
         System.out.println("请输入要计算的表达式");

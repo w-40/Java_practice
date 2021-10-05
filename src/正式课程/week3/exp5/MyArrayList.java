@@ -20,6 +20,7 @@ public class MyArrayList {
         }
     }
 
+
     // 2.插入元素
     public void insertArray() {
         System.out.println("请输入要插入的元素的位置(从1开始)：");
@@ -118,6 +119,21 @@ public class MyArrayList {
         }
         newData[newData.length - 1] = value;
         data = newData;
+    }
+
+    public void reverseArrayList() {
+        System.out.println("请输入要查询的元素：");
+        String element = sc.next();
+
+        for (int i = data.length - 1; i >= 0; i--) {
+            if (element.equals(data[i])) {
+                int index = i + 1;
+                int lastIndex = data.length - index + 1;
+                System.out.println("查询成功，该元素在线性表的倒数第" + lastIndex + "个位置");
+                return;
+            }
+        }
+        System.out.println("未查询到该元素");
     }
 }
 
