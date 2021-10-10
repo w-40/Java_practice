@@ -8,7 +8,6 @@ public class ThreadSocket implements Runnable{
     private Socket acceptSocket;
     public ThreadSocket(Socket accept) {
         this.acceptSocket = accept;
-
     }
 
     @Override
@@ -48,8 +47,6 @@ public class ThreadSocket implements Runnable{
                     e.printStackTrace();
                 }
             }
-
-
         }
     }
 }

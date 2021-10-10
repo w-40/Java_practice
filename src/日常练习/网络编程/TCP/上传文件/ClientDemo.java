@@ -5,9 +5,9 @@ import java.net.Socket;
 
 public class ClientDemo {
     public static void main(String[] args) throws IOException {
-        Socket socket = new Socket("127.0.0.1", 10010);
+        Socket socket = new Socket("10.138.56.142", 10015);
         //是本地的流，用来读取本地文件的
-        BufferedInputStream bis = new BufferedInputStream(new FileInputStream("E:\\桌面\\阿里巴巴Java开发手册.pdf"));
+        BufferedInputStream bis = new BufferedInputStream(new FileInputStream("D:\\open\\openEuler-20.03-LTS-x86_64-dvd.iso"));
         //写到服务器--网络中的流
         OutputStream os = socket.getOutputStream();
         BufferedOutputStream bos = new BufferedOutputStream(os);
