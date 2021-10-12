@@ -1,4 +1,4 @@
-package 正式课程.week4.extend;
+package 正式课程.week5.exp7.content2;
 
 public class MainClass {
     public static void main(String[] args) {

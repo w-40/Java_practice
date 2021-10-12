@@ -1,4 +1,4 @@
-package 正式课程.week4.extend;
+package 正式课程.week5.exp7.content2;
 
 public class Cat extends Pet {
     public Cat(String name, String color, String breed) {
